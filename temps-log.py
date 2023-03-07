@@ -8,7 +8,7 @@ import os
 #mysql-connector-python
 #psutil
 
-db = mysql.connector.connect(host='192.168.0.23',user='ted',passwd='<PW>',db='homelab_system_logging')
+db = mysql.connector.connect(host='<DBS>',user='<USR>',passwd='<PW>',db='<DB>')
 cursor = db.cursor(buffered=True)
 
 def main():
