@@ -4,6 +4,10 @@ import psutil
 import mysql.connector
 import os
 
+#requires 
+#mysql-connector-python
+#psutil
+
 db = mysql.connector.connect(host='192.168.0.23',user='ted',passwd='<PW>',db='homelab_system_logging')
 cursor = db.cursor(buffered=True)
 
